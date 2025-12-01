@@ -21,10 +21,10 @@ public class repbrandrem {
             if (num == 0){
                 continue;
             }
-            if (num % 2 == 0) {
+            else if (num % 2 == 0) {
                 evencount++;
             }
-            if (num % 2 == 1) {
+            else if (num % 2 == 1) {
                 oddcount++;
             }
         }
