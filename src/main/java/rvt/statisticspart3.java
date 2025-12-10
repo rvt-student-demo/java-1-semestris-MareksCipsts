@@ -1,8 +1,8 @@
 package rvt;
 import java.util.Scanner;
-public class statisticspart3 {
+class statisticspart333 {
     private int sum;
-    public statisticspart3() {
+    public statisticspart333() {
         this.sum = 0;
     }
     public void addNumber(int number) {
@@ -12,9 +12,9 @@ public class statisticspart3 {
         return this.sum;
     }
 }
-class Main {
+public class statisticspart3 {
     public static void main(String[] args) {
-        statisticspart3 statistics = new statisticspart3();
+        statisticspart333 statistics = new statisticspart333();
         System.out.println("Enter numbers: ");
         Scanner scanner = new Scanner(System.in);
         while (true) {
